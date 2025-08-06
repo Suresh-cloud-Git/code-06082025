@@ -7,9 +7,9 @@ resource "azurerm_resource_group" "names" {
 
 variable "rgs" {
     default = {
-        dev ="eastus"
-        prod ="westus"
-        stage="centralindia"
+        dev1 ="eastus"
+        prod1 ="westus"
+        stage1="centralindia"
     }
   
 }
