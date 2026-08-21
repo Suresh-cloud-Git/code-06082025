@@ -22,3 +22,12 @@ resource "azurerm_storage_account" "stgname" {
   account_replication_type = "GRS"
   
 }
+
+resource "azurerm_storage_account" "delete" {
+    name                     = "jaadhukastorage11-delete"
+  resource_group_name      = "rg-terraformstate2607"
+  location                 = "centralindia"
+  account_tier             = "Standard"
+  account_replication_type = "GRS"
+  
+}
