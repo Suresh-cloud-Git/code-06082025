@@ -25,7 +25,7 @@ resource "azurerm_storage_account" "stgname" {
 }
 
 resource "azurerm_storage_account" "delete" {
-    name                     = "jaadhukastorage11-uat"
+    name                     = "jaadhukastorage11-prod"
   resource_group_name      = "rg-terraformstate2607"
   location                 = "centralindia"
   account_tier             = "Standard"
