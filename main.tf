@@ -16,7 +16,7 @@ variable "rgs" {
   
 }
 resource "azurerm_storage_account" "stgname" {
-    name                     = "jaadhukastorage11"
+    name                     = "jaadhukastorage11prod"
   resource_group_name      = "rg-terraformstate2607"
   location                 = "centralindia"
   account_tier             = "Standard"
@@ -25,7 +25,7 @@ resource "azurerm_storage_account" "stgname" {
 }
 
 resource "azurerm_storage_account" "delete" {
-    name                     = "jaadhukastorage11-delete"
+    name                     = "jaadhukastorage11-uat"
   resource_group_name      = "rg-terraformstate2607"
   location                 = "centralindia"
   account_tier             = "Standard"
