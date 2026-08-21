@@ -16,7 +16,7 @@ variable "rgs" {
   
 }
 resource "azurerm_storage_account" "stgname" {
-    name                     = "jaadhukastorage11uat"
+    name                     = "jaadhukastorage11prod"
   resource_group_name      = "rg-terraformstate2607"
   location                 = "centralindia"
   account_tier             = "Standard"
