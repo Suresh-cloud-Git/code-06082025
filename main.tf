@@ -10,6 +10,7 @@ variable "rgs" {
         dev1 ="eastus"
         prod1 ="westus"
         stage1="centralindia"
+        uat1="eatus"
     }
   
 }
